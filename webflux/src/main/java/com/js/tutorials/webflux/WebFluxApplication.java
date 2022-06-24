@@ -1,13 +1,13 @@
-package com.js.tutorials;
+package com.js.tutorials.webflux;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TutorialsApplication {
+public class WebFluxApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TutorialsApplication.class, args);
+		SpringApplication.run(WebFluxApplication.class, args);
 	}
 
 }
